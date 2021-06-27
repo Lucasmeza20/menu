@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Meza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="uicons-regular-rounded/css/uicons-regular-rounded.css">
+    
+</head>
+<body>
+    <div class="container__menu">
+        <div class="container-mobile">
+            <span class="nav-bar"><i class="fi fi-rr-menu-burger"></i></span>
+            <img class="logo-mibbanx" src="img/mibbanx.svg" alt="MibbanX">
+        </div>
+        <div class="container__marque">
+            <marquee scrollamount="4" id="marquesina">Ceo Lucas Meza Ignacio</marquee>
+        </div>
+        <nav class="main-nav">
+            <ul class="menu" id="menu">
+                <li class="menu__item container-submenu">
+                    <a href="#" class="menu__link submenu_btn">Ayuda <i class="fi fi-rr-angle-small-down"></i></a>
+                    <ul class="submenu">
+                        <li class="menu__item"><a href="#" class="menu__link">Servicio al Cliente</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Informar de una infracción</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Disputa</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item"><a href="#" class="menu__link">Vender</a></li>
+                <li class="menu__item"><a href="#" class="menu__link"><i class="fi fi-rr-smartphone"></i> Mi Chat</a></li>
+                <li class="menu__item"><a href="#" class="menu__link"><i class="fi fi-rr-heart"></i> Mis Deseos</a></li>
+                <li class="categoria__item"><a href="#" class="menu__link"><i class="fi fi-rr-list"></i> Categorias <i class="fi fi-rr-angle-small-down"></i></a></li>
+                <li class="menu__item container-submenu">
+                    <a href="#" class="menu__link submenu_btn"><i class="fi fi-rr-user"></i> Mi Cuenta <i class="fi fi-rr-angle-small-down"></i>
+                    </a>
+                    <ul class="submenu">
+                        <h3 class="bienvenido-usuar">¡Bienvenido!  
+                            <!-- <a href="{% url 'cuentas:ingresar' %}">Ingresar</a> 
+                                o 
+                                <a href="{% url 'cuentas:registro' %}">Registrarse</a> -->
+                            </h3>
+                            <li class="menu__item"><a href="#" class="menu__link">Mis Publicaciones</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Mis Visitas</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Mas Opciones</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Mis Ideas</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Mi Configuración</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Cerrar sesión</a></li>
+                        </ul>
+                    </li>
+                    <div class="menu__user">
+                        <img class="img-user" src="img/perfil.png" alt="perfil">
+                        <div class="user-info">
+                            <span class="user-bienvenido" id="welcome">Bienvenido</span>
+                            <a href="#"><span class="user-name"> Usuario </span></a>
+                        </div>
+                    </div>
+                </ul>
+        </nav>
+    </div>    
+    <script src="menu.js"></script>
+</body>
+</html>
